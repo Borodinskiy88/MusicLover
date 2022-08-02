@@ -28,3 +28,14 @@
 
 Итог: у вас должен быть репозиторий на GitHub, в котором будет ваш Gradle-проект.
  */
+
+//todo
+val result = if (sum >10_000) {
+    sum - 100
+} else if (sum > 1000) {
+        (sum * 0.95).toInt()
+    } else {
+        sum
+    }
+
+if meloman println result*0.99 else println result
