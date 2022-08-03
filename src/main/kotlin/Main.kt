@@ -1,4 +1,5 @@
 package ru.netology
+
 fun main() {
     val musicLover = true
     val sum = 10000
@@ -6,7 +7,7 @@ fun main() {
         sum - (sum / 100 * 5)
     } else if (sum >= 1001 && sum <= 10000) {
         sum - 100
-    } else  {
+    } else {
         sum
     }
     val finalDiscount = if (musicLover == true) discount - (discount / 100 * 1) else discount
