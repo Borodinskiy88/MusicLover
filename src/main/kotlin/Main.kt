@@ -1,6 +1,6 @@
 package ru.netology
 
-un main() {
+fun main() {
     val musicLover = true
     val sum = 10000
     val discount = if (sum > 10000) {
