@@ -10,6 +10,6 @@ fun main() {
     } else {
         sum
     }
-    val finalDiscount = if (musicLover == true) discount - (discount / 100 * 1) else discount
+    val finalDiscount = if (musicLover) discount - (discount / 100 * 1) else discount
     println(finalDiscount)
 }
