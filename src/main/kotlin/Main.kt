@@ -12,6 +12,7 @@ fun main() {
     }
     val finalDiscount = if (musicLover) discount - (discount / 100 * 1) else discount
     println(finalDiscount)
+    println()
 
 }
 
