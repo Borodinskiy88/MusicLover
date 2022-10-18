@@ -28,8 +28,10 @@
 
 Итог: у вас должен быть репозиторий на GitHub, в котором будет ваш Gradle-проект.
  */
+fun main() {}
 
 //todo
+val sum = 0.0
 val result = if (sum >10_000) {
     sum - 100
 } else if (sum > 1000) {
@@ -38,4 +40,4 @@ val result = if (sum >10_000) {
         sum
     }
 
-if meloman println result*0.99 else println result
+if (meloman) println (result*0.99) else println (result)
